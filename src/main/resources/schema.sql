@@ -1,0 +1,36 @@
+--CREATE SCHEMA `weatherbee` ;
+--
+--CREATE TABLE USERS(
+--   ID integer not null,
+--   USERNAME varchar(255) not null,
+--   primary key(id)
+--);
+--
+--CREATE TABLE BOARDS(
+--   ID integer not null,
+--   USER_ID integer not null,
+--   primary key(id),
+--   foreign key (USER_ID) references USERS(ID)
+--
+--);
+--
+--CREATE TABLE LOCATIONS(
+--   ID integer not null,
+--   CITY varchar(255) not null,
+--   COUNTRY varchar(255) not null,
+--   REGION varchar(255) not null,
+--   BOARD_ID integer not null,
+--   primary key(id),
+--   foreign key (BOARD_ID) references BOARDS(ID)
+--);
+--
+--CREATE TABLE FORECAST(
+--   ID integer not null,
+--   ACTUAL_DATE DATE not null,
+--   MAX_TEMPERATURE integer not null,
+--   MIN_TEMPERATURE integer not null,
+--   WHEATER_DESCRIPTION varchar(255) not null,
+--   LOCATION_ID integer,
+--   primary key(id),
+--   foreign key (LOCATION_ID) references LOCATIONS(ID)
+--)
